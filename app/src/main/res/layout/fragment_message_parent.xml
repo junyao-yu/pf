@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_f5f5f5"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <android.improving.utils.views.cardsview.FlippableStackView
+        android:id="@+id/flippable_stack_view_message"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_height="match_parent"/>
+
+
+    <TextView
+        android:id="@+id/to_new_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/activity_message_notice_to_new"
+        android:gravity="center_horizontal|bottom"
+        android:paddingBottom="2dp"
+        android:textColor="@color/color_ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:background="@mipmap/message_notice_up"/>
+
+
+</RelativeLayout>

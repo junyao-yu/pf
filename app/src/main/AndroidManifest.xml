@@ -1,0 +1,65 @@
+<manifest package="com.huolicai.android"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!--友盟分析 权限 begin-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!--友盟分析 权限 end-->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.OtherActivity"
+        android:supportsRtl="true"
+        android:name=".base.BaseApplication">
+
+        <!-- 启动页-->
+        <activity android:name=".activity.home.LaunchActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- 首页-->
+        <activity android:name=".activity.home.HomeActivity" android:screenOrientation="portrait"/>
+
+        <!-- 手势密码设置-->
+        <activity android:name=".activity.setting.GestureSetActivity" android:screenOrientation="portrait"/>
+
+        <!-- 手势密码核实-->
+        <activity android:name=".activity.setting.GestureVerifyActivity" android:screenOrientation="portrait"/>
+
+        <!-- 消息通告-->
+        <activity android:name=".activity.messagenotice.MessageActivity" android:screenOrientation="portrait"/>
+
+        <!-- 登录-->
+        <activity android:name=".activity.user.LoginActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateAlwaysHidden"/>
+
+        <!-- 重设密码页-->
+        <activity android:name=".activity.user.ResetPwdActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateAlwaysHidden"/>
+
+        <!-- 注册-->
+        <activity android:name=".activity.user.RegisterActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateAlwaysHidden"/>
+
+
+        <!-- 验证手机号码-->
+        <activity android:name=".activity.user.ValidatePhoneActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan|stateHidden"/>
+
+        <!-- umeng start-->
+
+        <meta-data android:value="554ed796e0f55adff60081d2" android:name="UMENG_APPKEY"/>
+        <meta-data android:value="huolicai" android:name="UMENG_CHANNEL"/>
+        <meta-data android:name="UMENG_MESSAGE_SECRET" android:value="f484caa39c7213779ae1b671a1a3d3da" />
+        <!-- umeng end-->
+    </application>
+
+</manifest>

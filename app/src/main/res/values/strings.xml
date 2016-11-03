@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">HuoLiCaiPro</string>
+
+    <!-- activity title- activity title- activity title-->
+
+    <!--junyao begin -->
+    <string name="activity_gesture_set">手势密码设置界面</string>
+    <string name="activity_gesture_verify">手势密码核实界面</string>
+    <string name="activity_login">登录界面</string>
+    <string name="activity_register">注册界面</string>
+
+
+    <!--gaofei begin-->
+    <!--message-->
+    <string name="activity_message_notice">消息</string>
+    <string name="activity_message_notice_unread">未读</string>
+    <string name="activity_notice_title">公告</string>
+    <string name="activity_message_title">消息</string>
+    <string name="activity_message_notice_to_new">回到最新</string>
+
+
+    <!--validatephone-->
+    <string name="activity_validate_phone_title">验证手机</string>
+
+
+
+    <!--yazhou begin -->
+    <string name="activity_reset_pwd">重置密码</string>
+
+
+
+
+
+    <!-- toast display- toast display- toast display-->
+    <!--junyao begin -->
+    <string name="toast_gesture_tips">最少连接4个点，请重新输入</string>
+    <string name="toast_gesture_success">设置成功</string>
+
+    <!--gaofei begin-->
+
+    <!--yazhou begin -->
+    <string name="toast_reset_pwd_success">密码重设成功！</string>
+    <string name="toast_reset_pwd_fail">密码重设失败！</string>
+
+
+
+
+    <!-- text display - text display  -text display     -->
+
+    <!--junyao begin -->
+    <string name="text_skip">跳过</string>
+    <string name="text_again_draw">重新绘制手势</string>
+    <string name="text_gesture_tips">为了您的账户安全，请设置手势密码</string>
+    <string name="text_gesture_again">请再次绘制手势密码</string>
+    <string name="text_gesture_wrong_tips" formatted="false"><![CDATA[<font color=\"#F53952\">与首次绘制不一致，请再次绘制</font>]]></string>
+    <string name="text_gesture_forget">忘记手势</string>
+    <string name="text_gesture_verify_wrong">手势错误，您还有%d次机会</string>
+    <string name="text_login_forget_password">忘记密码</string>
+    <string name="text_go_register">注册火理财</string>
+    <string name="text_or">or</string>
+    <string name="text_around">随便逛逛</string>
+    <string name="text_back_app">返回火理财</string>
+    <string name="text_agreement" formatted="false"><![CDATA[注册代表你已同意<font color=\"#F63C54\">火理财用户协议</font>]]></string>
+
+    <!--gaofei begin-->
+    <string name="text_phone">手机号</string>
+    <string name="text_validate">验证码</string>
+
+    <!--yazhou begin -->
+    <string name="edit_reset_pwd">设置新密码</string>
+    <string name="edit_input_pwd_error">密码长度太低啦!</string>
+    <string name="edit_input_pwd_error1">密码不能包含中文哦!</string>
+    <string name="edit_input_pwd_error2">密码太长了哦!</string>
+
+    <!-- edit display - edit display  -edit display     -->
+
+    <!--junyao begin -->
+    <string name="edit_login_input_account_hint">请输入手机号</string>
+    <string name="edit_login_input_password_hint">请输入密码</string>
+    <string name="edit_login_input_vcode_hint">请输入验证码</string>
+    <!--gaofei begin-->
+
+    <!--yazhou begin -->
+
+
+    <!-- button display - button display  -button display     -->
+
+    <!--junyao begin -->
+    <string name="button_login">登录</string>
+    <string name="button_register">注册</string>
+
+
+    <!--gaofei begin-->
+    <string name="button_next_step">下一步</string>
+
+    <!--yazhou begin -->
+    <string name="btn_confirm">确认</string>
+
+</resources>
