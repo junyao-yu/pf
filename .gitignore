@@ -1,0 +1,10 @@
+.gradle
+*.properties
+/.idea
+.DS_Store
+/build
+/captures
+*.iml
+*.txt
+/PushSDK/build
+gradle/
